@@ -1,4 +1,4 @@
-# onboardingProjetos2024-1
+# onboardingProjetos2024
 
 ## Semana 1: Relatório de Git
 Bem-vindos, trainees de Projetos da FTEC! A partir de hoje, vocês oficialmente iniciam sua jornada na Fronteira Tec! Sua primeira missão é fundamental para os nossos próximos passos. Como parte de sua jornada de desenvolvimento, é crucial que vocês se familiarizem com ferramentas essenciais para o trabalho colaborativo e eficiente. Neste contexto, a utilização do Git, Markdown e a adoção de boas práticas são fundamentais para garantir a qualidade e a organização de nosso código.
