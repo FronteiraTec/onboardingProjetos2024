@@ -40,20 +40,27 @@ Diretoria de Projetos,
 Ruan P. Vitkoski de Souza 
 
 ### Semana 2: Carrossel   
-Nesta atividade, você deverá desenvolver um carrossel de imagens responsivo utilizando HTML, CSS e JavaScript. O objetivo é avaliar suas habilidades em front-end, capacidade de desenvolver interfaces amigáveis e adaptáveis a diferentes dispositivos, além de garantir uma boa experiência do usuário.
-Requisitos:
-O carrossel deve conter no mínimo 5 slides, cada um representando um conteúdo diferente (imagem, título e descrição).
-O carrossel deve ser responsivo, funcionando corretamente em dispositivos móveis e desktops.
-Deve haver controle manual, ou seja, botões de navegação (anterior/próximo) e indicadores de slides (ex: bolinhas).
-O carrossel deve ter uma transição suave entre os slides (efeito de fade ou slide).
-Opcional: adicionar navegação automática (slides trocando sozinhos após um intervalo de tempo).
-Critérios de Avaliação:
-Estrutura e semântica do código HTML.
-Qualidade e organização do CSS (boas práticas de responsividade e estilização).
-Funcionamento correto do carrossel (navegação manual e, se houver, automática).
-Facilidade de uso e interface visual agradável.
-Comentários no código explicando sua lógica.
-Dica: Utilize boas práticas de desenvolvimento e certifique-se de que o código está limpo e organizado. Lembre-se que a simplicidade pode ser mais eficiente do que uma interface excessivamente complexa.
+# Atividade: Criação de um Carrossel Responsivo
+
+## Descrição
+Nesta atividade, você deverá desenvolver um carrossel de imagens responsivo utilizando **HTML**, **CSS** e **JavaScript**. O objetivo é avaliar suas habilidades em front-end, capacidade de desenvolver interfaces amigáveis e adaptáveis a diferentes dispositivos, além de garantir uma boa experiência do usuário.
+
+## Requisitos
+1. O carrossel deve conter no mínimo 5 slides, cada um representando um conteúdo diferente (imagem, título e descrição).
+2. O carrossel deve ser responsivo, funcionando corretamente em dispositivos móveis e desktops.
+3. Deve haver controle manual, ou seja, botões de navegação (anterior/próximo) e indicadores de slides (ex: bolinhas).
+4. O carrossel deve ter uma transição suave entre os slides (efeito de fade ou slide).
+5. **Opcional:** adicionar navegação automática (slides trocando sozinhos após um intervalo de tempo).
+
+## Critérios de Avaliação
+- Estrutura e semântica do código **HTML**.
+- Qualidade e organização do **CSS** (boas práticas de responsividade e estilização).
+- Funcionamento correto do carrossel (navegação manual e, se houver, automática).
+- Facilidade de uso e interface visual agradável.
+- Comentários no código explicando sua lógica.
+
+## Dica
+Utilize boas práticas de desenvolvimento e certifique-se de que o código está limpo e organizado. Lembre-se que a simplicidade pode ser mais eficiente do que uma interface excessivamente complexa.
 
 Para a entrega pode utilizar uma Branche Com_nome_do_trainees do presente Repositórios
 [https://github.com/FronteiraTec/onboardingProjetos2024](https://github.com/FronteiraTec/onboardingProjetos2024.git)
