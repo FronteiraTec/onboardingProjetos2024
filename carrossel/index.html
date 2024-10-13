@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="carrossel-container">
+            
+            <div class="imagens-container">
+                <div class="imagens">
+                    <img src="img/imagem1.jpg" alt="Imagem da UFFS" id="imagem1">
+                    <img src="img/imagem2.jpeg" alt="Imagem aérea UFFS Chapecó" id="imagem2">
+                    <img src="img/imagem3.jpg" alt="Imagem bloco dos professores UFFS" id="imagem3">
+                    <img src="img/imagem4.jpg" alt="Imagem aérea UFFS Erechim" id="imagem4">
+                    <img src="img/imagem5.jpg" alt="Imagem bloco dos professores UFFS" id="imagem5">
+                </div>
+                
+                <button id="proximo">&#8250;</button>
+                <button id="anterior">&#8249;</button>
+
+                <div class="imagens-nav">
+                    <a href="#imagem1" onclick="mudarIndex(1)"></a>
+                    <a href="#imagem2" onclick="mudarIndex(2)"></a>
+                    <a href="#imagem3" onclick="mudarIndex(3)"></a>
+                    <a href="#imagem4" onclick="mudarIndex(4)"></a>
+                    <a href="#imagem5" onclick="mudarIndex(5)"></a>
+
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>

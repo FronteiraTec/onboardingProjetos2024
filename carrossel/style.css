@@ -1,0 +1,77 @@
+body  {
+    background-color: #282828;
+}
+
+.carrossel-container{
+    padding: 2rem;
+}
+
+.imagens-container{
+    position: relative; 
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.imagens{
+    display: flex;
+    aspect-ratio: 16/9;
+
+    /*Deixar imagens organizadas dentro do .imagens-container*/
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; 
+    scroll-behavior: smooth;
+
+    overflow: hidden;
+    box-shadow: 0  1.5rem 3rem -0.75rem hsla(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+}
+
+.imagens-container img {
+
+/* ajustar tamanho das imagens*/
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    object-fit: cover;
+    
+    scroll-snap-align: start;
+}
+
+.imagens-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.imagens-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.5;
+    transition: opacity ease 250ms;
+}
+
+#proximo, #anterior {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font-size: 3em;
+}
+
+#proximo {
+    right: 10px;
+}
+#anterior {
+    left: 10px;
+}
