@@ -4,6 +4,7 @@ body  {
 
 .carrossel-container{
     padding: 2rem;
+    
 }
 
 .imagens-container{
@@ -74,4 +75,18 @@ body  {
 }
 #anterior {
     left: 10px;
+}
+
+@media (max-width: 850px) {
+    
+    .carrossel-container{
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .carrossel-container{
+        padding: 0.5rem 0;
+    }
 }

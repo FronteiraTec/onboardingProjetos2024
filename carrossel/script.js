@@ -1,11 +1,10 @@
-const imagensContainer = document.querySelector('.imagens-container');
 const imagens = document.querySelectorAll('.imagens img');
 const bolinhas = document.querySelectorAll('.imagens-nav a');
 const proximo = document.getElementById('proximo');
 const anterior = document.getElementById('anterior');
 
 var index = 1;
-mudarIndex(1);
+mudarIndex(index);
 
 function mudarIndex(i){
     index = i;
@@ -29,7 +28,7 @@ function mudarIndex(i){
 
 //funções dos botoes proximo e anterior.
 proximo.addEventListener('click', () => {
-    index = (index % imagens.length) + 1; // Volta ao primeiro após o último
+    index = (index % imagens.length) + 1;
     mudarIndex(index);
 });
 
