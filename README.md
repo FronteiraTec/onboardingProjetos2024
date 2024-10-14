@@ -25,4 +25,4 @@ Boas Práticas
 - Identificação e discussão de boas práticas
 - Mensagens de commit descritivas.
 - Uso adequado de branches e merges.
-- Colaboração em projetos compartilhados.
+- Colaboração em projetos compartilhados.       
